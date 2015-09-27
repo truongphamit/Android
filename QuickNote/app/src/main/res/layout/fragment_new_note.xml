@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="org.example.truongpq.quicknote.NoteDetailFragment">
+    tools:context="org.example.truongpq.quicknote.activity.NoteDetailFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,16 +17,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:paddingTop="16dp"
             android:paddingLeft="16dp"
-            android:paddingRight="16dp" >
+            android:paddingRight="16dp"
+            android:paddingTop="16dp">
 
             <EditText
                 android:id="@+id/edit_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Title"
-                android:textColorHint="@color/textColorPrimary"/>
+                android:textColor="@color/textColorSecondary"
+                android:textColorHint="@color/textColorPrimary" />
         </android.support.design.widget.TextInputLayout>
 
 
@@ -42,7 +43,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Note"
-                android:textColorHint="@color/textColorPrimary"/>
+                android:textColor="@color/textColorSecondary"
+                android:textColorHint="@color/textColorPrimary" />
         </android.support.design.widget.TextInputLayout>
     </LinearLayout>
 

@@ -7,10 +7,20 @@ import android.os.Parcelable;
  * Created by truongpq on 9/13/15.
  */
 public class Note implements Parcelable {
+    private int id;
     private String title;
     private String note;
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public Note() {
+
     }
 
     public Note(String title, String note) {

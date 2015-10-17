@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tết</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_sms">Danh sách</string>
+</resources>

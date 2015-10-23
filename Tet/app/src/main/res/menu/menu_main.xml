@@ -3,4 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
 
+    <item
+        android:id="@+id/introduce"
+        android:title="Giới thiệu" />
+    <item
+        android:id="@+id/contact"
+        android:title="Liên hệ" />
 </menu>

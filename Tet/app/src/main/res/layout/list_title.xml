@@ -12,7 +12,7 @@
         <ImageView
             android:layout_width="60dp"
             android:paddingLeft="4dp"
-            android:src="@drawable/ic_message"
+            android:src="@drawable/ic_title"
             android:layout_height="60dp"
             android:id="@+id/img_title" />
 

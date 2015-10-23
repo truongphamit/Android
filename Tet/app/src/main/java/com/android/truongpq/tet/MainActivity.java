@@ -31,10 +31,20 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+
+        switch (id) {
+            case R.id.introduce:
+                new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_info).setTitle("Giới thiệu")
+                        .setMessage("Những mẫu tin nhắn yêu thương giúp bạn bày tỏ tình cảm với những người thân yêu.")
+                        .show();
+                break;
+            case R.id.contact:
+                new AlertDialog.Builder(this).setIcon(android.R.drawable.stat_sys_speakerphone).setTitle("Liên hệ")
+                        .setMessage("Họ tên: Phạm Quang Trường\nEmail: TruongPhamIt@gmail.com")
+                        .show();
+                break;
+        }
 
         return super.onOptionsItemSelected(item);
     }

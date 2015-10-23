@@ -2,6 +2,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.android.truongpq.tet.ListSMSActivity">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+    <item
+        android:id="@+id/guide"
+        android:title="Hướng dẫn" />
+    <item
+        android:id="@+id/introduce"
+        android:title="Giới thiệu" />
+    <item
+        android:id="@+id/contact"
+        android:title="Liên hệ" />
 </menu>
